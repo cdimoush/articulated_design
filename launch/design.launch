@@ -1,0 +1,8 @@
+<launch>
+	<rosparam command="load" file="$(find articulated_design)/config/mechanism.yaml" ns="arm" />
+	<node name="gui" pkg="articulated_design" type="mech_gui.py" output="screen"/>
+	<node name="mechanism" pkg="articulated_design" type="mechanism" output="screen"/>
+	<node name="workspace" pkg="articulated_design" type="workspace.py" output="screen"/>
+	<node name="graph" pkg="articulated_design" type="workspace_map.py" output="screen"/>
+	
+</launch>

@@ -1,0 +1,12 @@
+link1_length: 0.12
+link1_joint_pos: 0
+link1_mass: 0.2 #mass in kg
+link2_length: 0.26
+link2_joint_pos: 0.12 #joint location parameter for link2
+link2_mass: 0.2
+joint2_angle: 15
+s2_x: -0.0525  #servo 2 x coord relative to servo 1
+s2_y: 0.035  #servo 2 y coord relative to servo 1
+s2_hub_rad: 0.05
+link3_mass: 0.05
+ee_mass: 0.75
